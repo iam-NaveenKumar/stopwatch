@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-radius: 40px;
+  box-shadow: 2px 2px 20px white;
+}
+
+.stopwatch {
+  font-size: 6rem;
+  position: relative;
+  top: -20px;
+}
+
+.btns button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.start {
+  background-color: rgb(45, 73, 3);
+}
+
+.start:hover {
+  background-color: rgb(76, 124, 3);
+}
+
+.stop {
+  background-color: red;
+}
+.stop:hover {
+  background-color: rgba(255, 0, 0, 0.615);
+}
+
+.reset {
+  background-color: blue;
+}
+.reset:hover {
+  background-color: rgba(0, 0, 255, 0.575);
+}
